@@ -1,40 +1,41 @@
 <mat-toolbar style="background-color: aliceblue;" fxLayout="row" fxLayoutAlign="space-between center">
-  <button class="theme" mat-flat-button color="black">Jompoi</button>
-
+ 
   <div>
-    <button class="theme" mat-flat-button color="black">Basic</button>
+    <button class="theme" mat-flat-button color="black">Home</button>
     <button class="theme" mat-flat-button color="black">Products</button>
     <button class="theme" mat-flat-button color="black">About Us</button>
-    <button class="theme" mat-flat-button color="black">Follow</button>
   </div>
+  <img style="widows: 50px;;height: 50px;" src="../assets/logo.png">
+
   <div>
-
-    <button class="theme" mat-flat-button color="black">Faceboook
+    <button class="theme" mat-flat-button color="black">
+      <mat-icon>facebook </mat-icon>
+      Facebook
     </button>
 
-    <button class="theme" mat-flat-button color="black">Twiter
+    <button class="theme" mat-flat-button color="black">
+      <img style="width: 40px; height: 40px;" src="../assets/download.png">
+      Twitter
     </button>
 
-    <button class="theme" mat-flat-button color="black">Instagram
+    <button class="theme" mat-flat-button color="black">
+      <img style="width: 40px; height: 40px;" src="../assets/12xp-instagram-superJumbo.jpg"> 
+      Instagram
     </button>
   </div>
 </mat-toolbar>
 
 <div class="img1" fxLayout="column" fxLayoutAlign="space-evenly center">
-  <div fxLayout="row" fxLayoutAlign="space-between center">
+  <div fxLayout="row" fxLayoutAlign="space-evenly center">
     <img src="../assets/rev-slider_h2_img.png">
     <div>
-      <img style="height: 350px;" src="../assets/rev-slider_h2_img2.png">
-      <img style="height: 300px;" src="../assets/rev-slider_h2_img3.png">
+      <img style="height: 400px; width:auto;" src="../assets/rev-slider_h2_img2.png">
+      <img style="height: 300px; width:auto;" src="../assets/rev-slider_h2_img3.png">
     </div>
   </div>
 </div>
 <div class="organic">
   <img src="../assets/icon1-h8.jpg">
-  <br>
-  <h3 style="color: #bac34e;
-  font-size: 24px;">Our Products</h3>
-  <h1 style="color: #0a472e; font-size: 30px;">Highest Quality</h1>
 </div>
 
 <div class="catagori" fxLayout="row" fxLayoutAlign="space-evenly center">
@@ -73,10 +74,15 @@
   <img style=height:200px; src="../assets/37-450x420.jpg">
   <img style=height:200px; src="../assets/38-450x420.jpg">
 </div>
- 
+<div class="arrow">
+  <mat-icon>keyboard_arrow_left</mat-icon>
+  <mat-icon style="padding-right: 60%;">keyboard_arrow_right</mat-icon>
+
+</div>
+
 <!-- Catagories Images -->
- 
-<div style="height: 400px; width: 100%;" fxLayout="row" fxLayoutAlign="space-around stretch">
+
+<div style="height: 400px; width: 100%; padding-top: 100px;" fxLayout="row" fxLayoutAlign="space-around stretch">
   <div fxFlex="20">
     <img style="height: 100%; width: 100%;" src="../assets/cate-1-h2.jpg">
   </div>
@@ -115,9 +121,9 @@
 
 <div fxLayout="row" class="contant_img" fxLayoutAlign="space-evenly center">
   <img style=height:500px; src="../assets/rev-slider_h2_img.png">
-  <h1 style="font-family: sans-serif; color: #0a472e;">A shop for good people<br> by
+  <h1 style="font-family: sans-serif; color: #0a472e; padding-left: 12px;">A shop for good people<br> by
     good people
-    <h4 style="color: #555; padding-top: 12px;">
+    <h4 style="color: #555; padding-top: 12px; padding-left: 12px;">
       Buy natural, sustainable and chemicalfree products from local sellers across the country.<br>
       We are a strong community of 100,000+ customers and 600+ sellers who aspire to be good, do good, and spread
       goodness.<br> We are a democratic, self-sustaining, two-sided marketplace which thrives on trust and is built on
@@ -127,7 +133,8 @@
 </div>
 
 <div fxLayout="row" class="body_img" fxLayoutAlign="space-evenly center">
-  <h1 style="color: #0a472e; padding-left: 30px;"> Why customer love us
+  <h1 style="color: #0a472e; padding-left: 20px; "> 
+    Why customer love us
     <h4 style="color: #555; padding-top: 12px;">
       Buy natural, sustainable and chemicalfree products from local sellers across the country.<br>
       We are a strong community of 100,000+ customers and 600+ sellers who aspire to be good, do good, and spread
@@ -135,9 +142,10 @@
       community and quality content.
     </h4>
   </h1>
-  <img style="padding-right:20px; height:300px;" src="../assets/istockphoto-1158664559-612x612.jpg">
+  <img class="farmer" style="padding-right:20px; height:300px; width:300px;" src="../assets/istockphoto-1158664559-612x612.jpg">
 </div>
-<div class="card" fxLayout="row" fxLayoutAlign="space-evenly center">
+
+<div class="card" fxLayout="row" fxLayoutAlign="space-around stretch">
 
   <mat-card> <i class="fas fa-headphones"></i>
     <h4 style="color: rgb(173, 177, 180);">Phone Support</h4>

@@ -39,7 +39,7 @@ mat-toolbar {
     color: #0a472e;
     font-size: 30px;
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 100px;
     
 }
 .catagori h5 {
@@ -65,4 +65,11 @@ mat-toolbar {
 .organic{
      padding-left: 460px;
     
+}
+
+h1{
+    border-width: 2px; border-style: solid;
+}
+.farmer{
+    border-radius: 90%;
 }
