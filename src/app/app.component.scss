@@ -1,23 +1,62 @@
-.container{
-	max-width: 1170px;
-	margin:auto;
+// Header Sectiona
+.header{
+	padding: 0%;
+	margin: 0px;
 }
-.row{
+nav{
+	background: #FFCF35;
+	height: 80px;
+	width: 100%;
+}
+label.logo{
+ color: #ffffff;
+ font-size: 35px;
+ line-height: 80px;
+ padding: 0 100px;
+ font-weight: bold;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: #0a472e ;
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+a.hvr a:hover{
+	background: #1b9bff;
+	transition: .5s;
+}
+// footer Section
+.container {
+	max-width: 1170px;
+	margin: auto;
+}
+.row {
 	display: flex;
 	flex-wrap: wrap;
 }
-ul{
+ul {
 	list-style: none;
 }
-.footer{
+.footer {
 	background-color: #24262b;
-    padding: 70px 0;
+	padding: 70px 0;
 }
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
 }
-.footer-col h4{
+.footer-col h4 {
 	font-size: 18px;
 	color: #ffffff;
 	text-transform: capitalize;
@@ -25,20 +64,20 @@ ul{
 	font-weight: 500;
 	position: relative;
 }
-.footer-col h4::before{
-	content: '';
+.footer-col h4::before {
+	content: "";
 	position: absolute;
-	left:0;
+	left: 0;
 	bottom: -10px;
 	background-color: #e91e63;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
 }
-.footer-col ul li:not(:last-child){
+.footer-col ul li:not(:last-child) {
 	margin-bottom: 10px;
 }
-.footer-col ul li a{
+.footer-col ul li a {
 	font-size: 16px;
 	text-transform: capitalize;
 	color: #ffffff;
@@ -48,7 +87,7 @@ ul{
 	display: block;
 	transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
+.footer-col ul li a:hover {
 	color: #ffffff;
 	padding-left: 8px;
 }
