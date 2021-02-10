@@ -1,4 +1,10 @@
 // Header Sectiona
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	box-sizing: border-box;
+}
 .header{
 	padding: 0%;
 	margin: 0px;
@@ -8,14 +14,14 @@ nav{
 	height: 80px;
 	width: 100%;
 }
-label.logo{
- color: #ffffff;
- font-size: 35px;
- line-height: 80px;
- padding: 0 100px;
- font-weight: bold;
-}
-
+// label.logo{
+// 	height: 2px;
+// 	width: 3px;
+//  color: #ffffff;
+// //  font-size: 35px;
+// //  line-height: 80px;
+// //  padding: 0 100px;
+// }
 nav ul{
 	float: right;
 	margin-right: 20px;
@@ -29,6 +35,8 @@ nav ul li{
 nav ul li a{
 	color: #0a472e ;
 	font-size: 16px;
+	padding: 7px 13px;
+	border-radius: 3px;
 	text-transform: uppercase;
 
 }
@@ -90,4 +98,30 @@ ul {
 .footer-col ul li a:hover {
 	color: #ffffff;
 	padding-left: 8px;
+}
+
+.organic{
+	padding-left: 500px;
+}
+
+.catagori{
+	color: #0a472e;
+}
+
+.Best_Product{
+	padding-top: 90px;
+}
+.contant_text{
+	padding-top: 80px;
+	font-size: 24px;
+}
+.body_img{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.farmer{
+	border-radius: 80%;
+ }
+.CatImg{
+	padding-top: 50px;
 }
