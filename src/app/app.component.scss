@@ -1,48 +1,40 @@
 // Header Sectiona
-*{
+* {
 	padding: 0px;
 	margin: 0px;
 	text-decoration: none;
 	box-sizing: border-box;
 }
-.header{
+.header {
 	padding: 0%;
 	margin: 0px;
 }
-nav{
-	background: #FFCF35;
+nav {
+	background: #ffcf35;
 	height: 80px;
 	width: 100%;
 }
-// label.logo{
-// 	height: 2px;
-// 	width: 3px;
-//  color: #ffffff;
-// //  font-size: 35px;
-// //  line-height: 80px;
-// //  padding: 0 100px;
-// }
-nav ul{
+
+nav ul {
 	float: right;
 	margin-right: 20px;
 }
 
-nav ul li{
+nav ul li {
 	display: inline;
 	line-height: 80px;
 	margin: 0 5px;
 }
-nav ul li a{
-	color: #0a472e ;
+nav ul li a {
+	color: #0a472e;
 	font-size: 16px;
 	padding: 7px 13px;
 	border-radius: 3px;
 	text-transform: uppercase;
-
 }
-a.hvr a:hover{
+a.hvr a:hover {
 	background: #1b9bff;
-	transition: .5s;
+	transition: 0.5s;
 }
 // footer Section
 .container {
@@ -100,28 +92,145 @@ ul {
 	padding-left: 8px;
 }
 
-.organic{
+.organic {
 	padding-left: 500px;
 }
 
-.catagori{
+.catagori {
 	color: #0a472e;
 }
 
-.Best_Product{
+.Best_Product {
 	padding-top: 90px;
 }
-.contant_text{
+.contant_text {
 	padding-top: 80px;
 	font-size: 24px;
 }
-.body_img{
+.body_img {
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
-.farmer{
+.farmer {
 	border-radius: 80%;
- }
-.CatImg{
+}
+.CatImg {
 	padding-top: 50px;
+}
+
+// slider
+/* external css: flickity.css */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.carousel {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	background: #bbbbbb;
+}
+
+.carousel-cell {
+	width: 66%;
+	height: 300px;
+}
+
+/* cell number */
+.carousel-cell:before {
+	display: block;
+}
+
+// corocel slider
+.sec {
+	color: #0a472e;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec b {
+	color: #ffc000;
+}
+.sec::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	background: rgba(0, 0, 0, 0.2);
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+
+// card
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+	height: 100%;
+}
+
+.price {
+	color: grey;
+	font-size: 22px;
+}
+
+.card button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color: #0a472e;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+
+.card button:hover {
+	opacity: 0.7;
+}
+
+.imgggg {
+	height: 250px;
+	width: 230px;
+}
+ 
+// Gomati products
+.sec1 {
+	color: #0a472e;
+	padding-top: 70px;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec1 b {
+	color: #ffc000;
+}
+.sec1::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	background: rgba(0, 0, 0, 0.2);
+	left: 0;
+	right: 0;
+	bottom: -20px;
 }
