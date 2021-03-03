@@ -10,8 +10,8 @@
 	margin: 0px;
 }
 nav {
-	background: #ffcf35;
-	height: 80px;
+	background: #ebebe5;
+	height: 75px;
 	width: 100%;
 }
 
@@ -30,7 +30,7 @@ nav ul li a {
 	font-size: 16px;
 	padding: 7px 13px;
 	border-radius: 3px;
-	text-transform: uppercase;
+	// text-transform: uppercase;
 }
 a.hvr a:hover {
 	background: #1b9bff;
@@ -132,15 +132,15 @@ body {
 .carousel {
 	margin-top: 10px;
 	margin-bottom: 30px;
-	background: #bbbbbb;
+	background: #ffffff;
 }
 
 .carousel-cell {
-	width: 66%;
+	width: 90%;
 	height: 300px;
 }
 
-/* cell number */
+// /* cell number */
 .carousel-cell:before {
 	display: block;
 }
